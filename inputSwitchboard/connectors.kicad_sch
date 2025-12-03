@@ -1,0 +1,42 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c5f295e6-df12-4a29-9f1e-d6ec0f8e2dcf")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 281.94 162.56)
+		(end 281.94 162.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a570b515-25ed-40f3-8e12-345188230b41)
+	)
+	(rectangle
+		(start 175.26 21.59)
+		(end 284.48 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e36ba8bc-6732-463e-895c-b32c58db7012)
+	)
+	(text "daughterboard\n"
+		(exclude_from_sim no)
+		(at 196.85 25.654 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "5aca3771-c056-4edd-9125-9b76a7021495")
+	)
+)
