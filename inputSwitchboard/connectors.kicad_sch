@@ -4134,7 +4134,7 @@
 		(at 190.5 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4148,7 +4148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
+		(property "Value" "GPIO-ADC"
 			(at 193.04 123.1899 0)
 			(effects
 				(font
@@ -4157,7 +4157,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
 			(at 190.5 120.65 0)
 			(effects
 				(font
@@ -4280,7 +4280,7 @@
 		(at 242.57 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -4294,7 +4294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x14"
+		(property "Value" "GPIO"
 			(at 245.11 120.6499 0)
 			(effects
 				(font
@@ -4303,7 +4303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-14P_1x14_P5.00mm"
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -4386,9 +4386,9 @@
 		(at 242.57 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "61d2e800-c327-4199-82f4-23367c6d1ce7")
 		(property "Reference" "J7"
@@ -4400,7 +4400,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x07"
+		(property "Value" "NES"
 			(at 245.11 81.2799 0)
 			(effects
 				(font
@@ -4409,7 +4409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-07P_1x07_P5.00mm"
 			(at 242.57 80.01 0)
 			(effects
 				(font
@@ -4743,9 +4743,9 @@
 		(at 77.47 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8ddbfb20-6477-46d1-ab3e-f8b816f659c2")
 		(property "Reference" "J5"
@@ -4757,7 +4757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x07"
+		(property "Value" "INT CTRL"
 			(at 80.01 81.2799 0)
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-07P_1x07_P5.00mm"
 			(at 77.47 80.01 0)
 			(effects
 				(font
@@ -4894,9 +4894,9 @@
 		(at 157.48 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a99690ba-039e-4349-91e4-28eac003fcec")
 		(property "Reference" "J6"
@@ -4908,7 +4908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x07"
+		(property "Value" "EXT CTRL"
 			(at 160.02 81.2799 0)
 			(effects
 				(font
@@ -4917,7 +4917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-07P_1x07_P5.00mm"
 			(at 157.48 80.01 0)
 			(effects
 				(font
