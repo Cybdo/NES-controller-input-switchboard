@@ -1,0 +1,70 @@
+### Footprint positions - created on 2025-12-07T11:52:31+1100 ###
+### Printed by KiCad version 9.0.5
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                                                             PosX       PosY       Rot  Side
+                                                                                       140.3184   -39.3017    0.0000  top
+                                                                                        74.8184   -39.3017    0.0000  top
+C1        10uF         C_0201_0603Metric                                                75.6050   -99.5900    0.0000  top
+C2        10uF         C_0201_0603Metric                                                75.6050  -101.3400    0.0000  top
+C3        10uF         C_0201_0603Metric                                                91.2350   -92.7400    0.0000  top
+C4        10uF         C_0201_0603Metric                                                91.2350   -94.4900    0.0000  top
+C5        1uF          C_0201_0603Metric                                               104.1850   -76.2400    0.0000  top
+C6        100nF        C_0201_0603Metric                                               102.8450   -69.5000    0.0000  top
+C7        100nF        C_0201_0603Metric                                                98.0000   -68.1550   90.0000  top
+C8        100nF        C_0201_0603Metric                                                98.0400   -79.7750  -90.0000  top
+C9        100nF        C_0201_0603Metric                                                93.8200   -74.0000  180.0000  top
+C10       100nF        C_0201_0603Metric                                               101.8392   -78.9559  -90.0000  top
+C11       100nF        C_0201_0603Metric                                               104.1800   -76.9800    0.0000  top
+C12       100nF        C_0201_0603Metric                                               104.1900   -74.7500    0.0000  top
+C13       1uF          C_0201_0603Metric                                               104.1850   -75.5000    0.0000  top
+C14       100nF        C_0201_0603Metric                                                93.6800   -75.0000  180.0000  top
+C15       100nF        C_0201_0603Metric                                               104.1900   -74.0000    0.0000  top
+C16       100nF        C_0201_0603Metric                                               114.2700  -102.6550  -90.0000  top
+C17       15pF         C_0201_0603Metric                                                89.4100   -57.6900   90.0000  top
+C18       15pF         C_0201_0603Metric                                                95.8000   -51.2500    0.0000  top
+D1        PWR_LED      LED_0201_0603Metric                                             112.0800  -106.6800    0.0000  top
+D2        STATUS       LED_0201_0603Metric                                             106.7550  -106.6800    0.0000  top
+J1        DATA         TYPE-C-31-M-12                                                   99.6300  -112.9750    0.0000  top
+J2        POWER        TYPE-C-31-M-12                                                   83.9450  -112.9800    0.0000  top
+J3        INPUT_SEL    TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal   113.2550   -52.6725    0.0000  top
+J4        OUTPUT_SEL   TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal   130.8400   -52.5000    0.0000  top
+J5        INT_CTRL     TerminalBlock_MaiXu_MX126-5.0-07P_1x07_P5.00mm                   64.5000  -108.0000   90.0000  top
+J6        EXT_CTRL     TerminalBlock_MaiXu_MX126-5.0-07P_1x07_P5.00mm                   64.5000   -70.5000   90.0000  top
+J7        NES          TerminalBlock_MaiXu_MX126-5.0-07P_1x07_P5.00mm                  139.8725   -65.7500  -90.0000  top
+J10       BOOTSEL      FanPinHeader_1x03_P2.54mm_Vertical                              120.4500   -66.2250    0.0000  top
+J11       RESET        FanPinHeader_1x03_P2.54mm_Vertical                              120.4148   -75.6208    0.0000  top
+J12       DEBUG        FanPinHeader_1x03_P2.54mm_Vertical                              120.4248   -84.9708    0.0000  top
+R1        5k1R         R_0603_1608Metric                                                93.0000  -104.5000    0.0000  top
+R2        5k1R         R_0603_1608Metric                                                93.0000  -101.5000    0.0000  top
+R3        5k1R         R_0603_1608Metric                                                92.9961   -98.4920    0.0000  top
+R4        470R         R_0603_1608Metric                                               110.0600  -103.1750   90.0000  top
+R5        4k7R         R_0603_1608Metric                                               143.3000   -59.1250  -90.0000  top
+R6        4k7R         R_0603_1608Metric                                               141.7750   -59.1250  -90.0000  top
+R7        4k7R         R_0603_1608Metric                                               125.7250   -59.3000  -90.0000  top
+R8        4k7R         R_0603_1608Metric                                               124.2000   -59.3000  -90.0000  top
+R9        470R         R_0603_1608Metric                                               106.7900  -103.1750   90.0000  top
+R10       5k1R         R_0603_1608Metric                                               102.0000   -81.8250   90.0000  top
+R11       5k1R         R_0603_1608Metric                                               104.5000   -81.8250   90.0000  top
+R12       1kR          R_0603_1608Metric                                               117.7000   -93.7000   90.0000  top
+R13       10kR         R_0603_1608Metric                                               116.1750   -93.7000  -90.0000  top
+R14       1kR          R_0603_1608Metric                                                95.4550   -54.0600    0.0000  top
+R15       4k7R         R_0603_1608Metric                                               116.5750   -79.0750  180.0000  top
+R16       4k7R         R_0603_1608Metric                                                70.2825   -58.9050    0.0000  top
+R17       4k7R         R_0603_1608Metric                                                70.2825   -61.4150    0.0000  top
+R18       6k8R         R_0603_1608Metric                                                70.2825   -63.9250    0.0000  top
+R19       6k8R         R_0603_1608Metric                                                70.2825   -66.4350    0.0000  top
+U1        AMS1117-3.3  SOT-223-3_TabPin2                                                82.6500   -98.8000   90.0000  top
+U2        RP2040       QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm                              99.2350   -73.9750  -90.0000  top
+U3        CH442E       MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm                           83.2000   -90.1500  180.0000  top
+U4        CH442E       MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm                           83.2000   -85.5750  180.0000  top
+U5        CH442E       MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm                           83.2000   -81.0000  180.0000  top
+U6        CH442E       MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm                           83.2000   -76.4250  180.0000  top
+U7        CH442E       MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm                           83.2000   -71.8500  180.0000  top
+U8        CH442E       MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm                           83.2000   -67.2750  180.0000  top
+U9        TXS0108EPW   TSSOP-20_4.4x6.5mm_P0.65mm                                       93.8625   -87.7750  180.0000  top
+U10       W25Q128JVS   SOIC-8_5.3x5.3mm_P1.27mm                                        112.3725   -96.9500  -90.0000  top
+U11       ~            SOT-23-5                                                         74.8625   -60.0500    0.0000  top
+U12       ~            SOT-23-5                                                         74.8625   -64.6750    0.0000  top
+Y1        ABM8-272-T3  XTAL_ABM8-272-T3                                                 92.8900   -57.8750   90.0000  top
+## End
