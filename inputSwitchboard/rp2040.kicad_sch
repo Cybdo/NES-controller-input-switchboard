@@ -5615,7 +5615,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 153.67 120.65 0)
 			(effects
 				(font
@@ -8393,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "imports:XTAL_ABM8-272-T3"
+		(property "Footprint" "ABM8-272-T3:XTAL_ABM8-272-T3"
 			(at 179.07 146.05 0)
 			(effects
 				(font

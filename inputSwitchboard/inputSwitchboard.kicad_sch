@@ -12,23 +12,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J1"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
-				(at 0 19.685 0)
+			(property "Value" "DATA"
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "imports:TYPE-C-31-M-12"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -375,7 +375,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "Sh1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1730,166 +1730,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SY6280AAC_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SY6280AAC_1_1_1"
-				(rectangle
-					(start -3.81 0)
-					(end 11.43 -12.7)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "SY6280AAC"
-					(at 3.302 1.016 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_out line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -10.16 0)
-					(length 2.54)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 3.81 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -2.54 180)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -10.16 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "USB_C_Receptacle_USB2.0_14P_1"
 			(pin_names
 				(offset 1.016)
@@ -2260,7 +2100,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "Sh1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2343,7 +2183,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 15.24 15.24 180)
 					(length 5.08)
 					(name "VBUS"
@@ -5802,7 +5642,6 @@
 		)
 	)
 	(symbol
-		(lib_name "SY6280AAC_1")
 		(lib_id "New_Library:SY6280AAC")
 		(at 160.02 120.65 0)
 		(unit 1)
@@ -6911,7 +6750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 34.29 152.4 0)
 			(effects
 				(font
@@ -7071,7 +6910,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -7293,7 +7132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 34.29 99.06 0)
 			(effects
 				(font
@@ -7367,7 +7206,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e5dba34-5944-4a78-ac47-fee6e30b73e8")
 		(property "Reference" "U4"
 			(at 107.5533 95.25 0)
@@ -7387,7 +7225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 125.73 116.84 0)
 			(effects
 				(font
@@ -7887,7 +7725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 125.73 170.18 0)
 			(effects
 				(font
@@ -8279,7 +8117,7 @@
 				(hide yes)
 			)
 		)
-		(pin "S1"
+		(pin "Sh1"
 			(uuid "c06950d6-e814-43e8-9aa4-64ffe305701f")
 		)
 		(pin "B7"
@@ -8341,7 +8179,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1d97c1e-d57e-40a0-83ed-5e65c4dd9b81")
 		(property "Reference" "U7"
 			(at 194.8881 74.93 0)
@@ -8361,7 +8198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 171.45 78.74 0)
 			(effects
 				(font
@@ -8587,7 +8424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10-1EP_3x3mm_P0.5mm_EP1.68x1.88mm"
+		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
 			(at 262.89 96.52 0)
 			(effects
 				(font
@@ -8777,7 +8614,7 @@
 				(hide yes)
 			)
 		)
-		(pin "S1"
+		(pin "Sh1"
 			(uuid "36d60e61-4555-4f50-966e-b9aeb482889e")
 		)
 		(pin "B7"
