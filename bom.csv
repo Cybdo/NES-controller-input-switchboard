@@ -1,0 +1,8 @@
+Quantity,Item,Price each (AUD),Price each (USD @ 0.67 USD for 1 AUD),Price total (USD),Source
+1,PCB,3,2.01,2.01,JLCPCB
+1,PCBA,62.76,42.05,42.05,JLCPCB
+1,Shipping - PCB,26.34,17.65,17.65,UPS Worldwide Express Saver
+2,NES controller extension cable,1.59,1.07,2.13,Aliexpress - 3Cc Game Store (https://www.aliexpress.com/item/1005003367500150.html) 
+1,Shipping - Aliexpress,5.94,3.98,3.98,Aliexpress
+,,,,,
+,,,total (USD),67.82,
